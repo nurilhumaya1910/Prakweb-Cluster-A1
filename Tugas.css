@@ -1,33 +1,32 @@
-{
-    margin: 0;
-    padding: 0;
+.background{ 
+   background: black;
+    width: 900px;
+    margin: 10px auto;      
 }
-header{
+.background .header{
             width: 784px;
             height: 200px;
             background-color: #a9a9a9;
+            margin bottom: 10px;
         }
-kolom{
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-        .kolom1{
+        .badan{
+            height: 450px;
+        }
+.background .badan .kolom1{
             width: 200px;
             height: auto;
             background-color: yellow;
+            float: left;
         }
-        .kolom2{
+.background .badan .kolom2{
             width: 584px;
             height: auto;
             margin-left: 205px;
             background-color: #f08080; 
+            float: left;
         }
-        footer{
+.background .footer{
             width: 784px;
             height: 100px;
-            background-color: #9370DB;
-            align-items: center;
-            justify-content: center;
-            padding: 1px;
-            display: flex;
+            background-color: violet;
         }
