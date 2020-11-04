@@ -1,32 +1,41 @@
-.background{ 
-   background: black;
-    width: 900px;
-    margin: 10px auto;      
+.container{ 
+    display:   grid;    
+    grid-template-areas: 
+        "area-1"
+        "area-2"
+        "area-3"
+        "area-4";
+      margin: 0 auto;  
 }
-.background .header{
-            width: 784px;
-            height: 200px;
-            background-color: #a9a9a9;
-            margin bottom: 10px;
+area-1 img{
+        grid-area: area-1;
+        width: 784px;
+        height: 200px;
+        background-color: #a9a9a9;
         }
-        .badan{
-            height: 450px;
+    body area{
+        overflow: hidden;
+    margin-bottom: 10px;
+      }
+area-2{
+    grid-area: area-2;
+        width: 200px;
+        height: auto;
+        background-color: yellow;
+        float: left;
         }
-.background .badan .kolom1{
-            width: 200px;
-            height: auto;
-            background-color: yellow;
-            float: left;
+area-3{
+    grid-area : area-3;
+        width: 584px;
+        height: auto;
+        background-color: #f08080; 
+        float: left;
+        min-height: 300px;
         }
-.background .badan .kolom2{
-            width: 584px;
-            height: auto;
-            margin-left: 205px;
-            background-color: #f08080; 
-            float: left;
-        }
-.background .footer{
+area-4{
+    grid-area: area-4;
             width: 784px;
             height: 100px;
             background-color: violet;
+            float: left;
         }
