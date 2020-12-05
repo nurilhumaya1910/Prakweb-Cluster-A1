@@ -1,0 +1,32 @@
+<?xml version=1?>
+<dataDiri>
+    <nama>
+        <awal>Nuril</awal>
+        <akhir>Humaya</awal>
+    </nama>
+
+    <status>Mahasiswa</status>
+
+    <jenisKelamin>Perempuan</jenisKelamin>
+
+    <alamat>
+        <Jalan>Jl. S parman, RT/RW 003/002</Jalan>
+        <kelurahan>Campur Asri</kelurahan>
+        <kecamatan>Baradatu</kecamatan>
+        <kota>Way Kanan</kota>
+    </alamat>
+
+    <orangTua>
+        <bapak>Jumadi</bapak>
+        <ibu>Kaminah</ibu>
+    </orangTua>
+    
+    <socialMedia>
+        <instagram>nurilhumaya19</instagram>
+    </socialMedia>
+
+    <hobi>
+        <hobi1>kuliner</hobi1>
+        <hobi2>jalan-jalan</hobi2>
+    </hobi>
+</dataDiri>

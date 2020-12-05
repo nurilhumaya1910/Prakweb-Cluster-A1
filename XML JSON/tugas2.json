@@ -1,0 +1,27 @@
+{
+    "datadiri": {
+        "nama": {
+            "awal": "Nuril",
+            "akhir": "Humaya"
+        },
+        "status": "Mahasiswa",
+        "jeniskelamin": "Perempuan",
+        "alamat": {
+            "Jalan": "Jl. S parman, RT/RW 003/002",
+            "kelurahan": "Campur Asri",
+            "kecamatan": "Baradatu",
+            "kota": "Way Kanan"
+        },
+        "orangtua": {
+            "bapak": "Jumadi",
+            "ibu": "Kaminah"
+        },
+        "sosialmedia": {
+            "instagram": "nurilhumaya19"
+        },
+        "hobi": {
+            "hobi1": "kuliner",
+            "hobi2": "jalan-jalan"
+        }
+    }
+}
